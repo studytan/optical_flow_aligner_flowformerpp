@@ -1,0 +1,47 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ---- IDE ----
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ---- Virtual Environment ----
+venv/
+env/
+ENV/
+.venv
+
+# ---- Checkpoints & Large Model Files ----
+checkpoints/
+*.pth
+
+# ---- Temporary ----
+_tmp_repos/
+tmp/
+temp/
+
+# ---- Output ----
+output/
+results/
+
+# ---- Accidental files ----
+nul
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- Folders not ready for commit ----
+models/
+test_images/
+_tmp_repos/
+output_test0/
